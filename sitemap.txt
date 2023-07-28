@@ -11,5 +11,5 @@ http://thereisntjack.github.io/comment/index.html
 http://thereisntjack.github.io/tags/index.html
 http://thereisntjack.github.io/
 http://thereisntjack.github.io/tags/%E7%AE%80%E4%BB%8B/
-http://thereisntjack.github.io/tags/%E5%BE%80%E4%BA%8B%E5%A6%82%E9%A3%8E/
 http://thereisntjack.github.io/tags/%E5%BE%80%E4%BA%8B%E9%9A%8F%E9%A3%8E/
+http://thereisntjack.github.io/tags/%E5%BE%80%E4%BA%8B%E5%A6%82%E9%A3%8E/
