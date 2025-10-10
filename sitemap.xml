@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://thereisntjack.github.io/2025/10/09/%E8%AE%B02025%E5%9B%BD%E5%BA%86/</loc>
+    <loc>http://thereisntjack.github.io/2025/10/09/%E8%AE%B02025%E5%BA%86/</loc>
     
-    <lastmod>2025-10-09</lastmod>
+    <lastmod>2025-10-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://thereisntjack.github.io/2025/10/10/%E5%8F%88%E4%B8%80%E6%AC%A1%E9%87%8D%E6%8B%BE/</loc>
+    
+    <lastmod>2025-10-10</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -165,6 +174,13 @@
   
   <url>
     <loc>http://thereisntjack.github.io/tags/%E7%AE%80%E4%BB%8B/</loc>
+    <lastmod>2025-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://thereisntjack.github.io/tags/%E6%84%8F%E8%AF%86%E6%B5%81/</loc>
     <lastmod>2025-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
