@@ -42,19 +42,19 @@
   </entry>
   
   <entry>
-    <title>记2025庆</title>
-    <link href="http://thereisntjack.github.io/2025/10/09/%E8%AE%B02025%E5%BA%86/"/>
-    <id>http://thereisntjack.github.io/2025/10/09/%E8%AE%B02025%E5%BA%86/</id>
+    <title>记博客的一次升级</title>
+    <link href="http://thereisntjack.github.io/2025/10/09/%E8%AE%B0%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%B8%80%E6%AC%A1%E5%8D%87%E7%BA%A7/"/>
+    <id>http://thereisntjack.github.io/2025/10/09/%E8%AE%B0%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%B8%80%E6%AC%A1%E5%8D%87%E7%BA%A7/</id>
     <published>2025-10-09T15:37:41.000Z</published>
-    <updated>2025-10-10T15:21:50.159Z</updated>
+    <updated>2025-10-15T16:46:27.945Z</updated>
     
-    <content type="html"><![CDATA[<p>国庆真好啊</p>]]></content>
+    <content type="html"><![CDATA[<p>25年的国庆节假期后，我突然又动起了我尘封已久的博客的念头。</p><p>正如我在<a href="https://thereisntjack.github.io/2020/07/25/%E5%85%88%E5%BA%B7%E8%BF%99%E4%B8%AA/">先看这个</a>中写到的，我的博客严格意义上已经6年了。</p><p>但作为一个兴趣驱动的人，我总是对各种事物抱有强烈而短暂的热情，于是，在建站之后，我几乎只在每年的暑假写一篇总结，而这即使是一年一次的传统也在高二升高三的暑假被打破了。</p><p>这一切当然归功于我的懒惰，以及上高中后时间逐渐碎片化，而碎片化时间又被短视频等填满所致。还记得小学的自己愿意为一个新奇的想法而没日没夜的研究：在自己的mbp上装双系统，装虚拟机搞360大战彩虹猫病毒；为了访问一篇文章中所提到的所谓ph而不断探索，最终找到免费的VPN；在知乎上看到神秘的“暗网”，最终下载Tor browser并看到现在早已不复存在的种种论坛。</p><p>现在的我，似乎只是小时候的一个影子，不断找寻着自己曾经的碎片。</p><p>不说题外话，这次对博客，即是要恢复更新，也是要解决一个遗留已久的问题：github的静态托管在中国部分地区被屏蔽访问。</p><p>这部分地区如若是新疆、西藏等地，我倒也不懒得管了，可偏偏北京移动对其进行了屏蔽，导致我一直以来访问自己的博客都必须挂梯子，真是荒谬。</p><p>在网上搜索，最推荐的方案是采用gitee或coding/github双线部署，实现国外走github，国内走gitee/coding，但问题就出在这。我实际尝试后才发现，网上的方案大多过时，coding的免费业务即将关停，而gitee的静态网站托管业务也早已下架。我只能说这是一种格局问题，coding背后是腾讯，gitee背后是百度，两家大公司明明具有充分的盈利能力，却要将这种根本不怎么占用服务器的功能下架，实现自身利益的绝对最大化，想赚钱想疯了，和微软旗下的github形成鲜明的对比。github能拥有全世界最大的开源社区不是没有原因的。</p><p>于是我转向使用备选方案，即使用cdn进行加速。我选择了阿里云cdn，却没想到噩梦才刚刚开始。</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;国庆真好啊&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;p&gt;25年的国庆节假期后，我突然又动起了我尘封已久的博客的念头。&lt;/p&gt;
+&lt;p&gt;正如我在&lt;a href=&quot;https://thereisntjack.github.io/2020/07/25/%E5%85%88%E5%BA%B7%E8%BF%99%E4%B8%AA/&quot;&gt;先看这个</summary>
       
     
     
