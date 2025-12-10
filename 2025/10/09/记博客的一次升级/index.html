@@ -548,6 +548,14 @@
 <p>这部分地区如若是新疆、西藏等地，我倒也不懒得管了，可偏偏北京移动对其进行了屏蔽，导致我一直以来访问自己的博客都必须挂梯子，真是荒谬。</p>
 <p>在网上搜索，最推荐的方案是采用gitee或coding/github双线部署，实现国外走github，国内走gitee/coding，但问题就出在这。我实际尝试后才发现，网上的方案大多过时，coding的免费业务即将关停，而gitee的静态网站托管业务也早已下架。我只能说这是一种格局问题，coding背后是腾讯，gitee背后是百度，两家大公司明明具有充分的盈利能力，却要将这种根本不怎么占用服务器的功能下架，实现自身利益的绝对最大化，想赚钱想疯了，和微软旗下的github形成鲜明的对比。github能拥有全世界最大的开源社区不是没有原因的。</p>
 <p>于是我转向使用备选方案，即使用cdn进行加速。我选择了阿里云cdn，却没想到噩梦才刚刚开始。</p>
+<p>12.2日续，这两天算是终于把cdn加速整好了，中间有一段一个多月的空窗期啥也没干，部分记忆已经悄然逝去，让我赶紧抓住剩下的部分。</p>
+<p>阿里云的cdn加速本身并不收费，但是为了进行加速，需要使用加速域名。既然已经选择了阿里云cdn，那不如也在阿里云买个域名。可是，在购买完域名后，我才意识到，在国内购买的域名都需要进行ICP备案之后才能被解析，而传统的域名备案要填写的部分过于繁琐和不知所云，于是我被迫选择了“备案智能助理”（99rmb)来帮助我完成备案，而这所谓的智能助理，不过就是一个把我填写的内容进行智能扩写的ai罢了。没办法，第一次走过的路总是要留下些学费的。</p>
+<p>但最让我觉得逆天的，是备案时居然要选择服务器（？）经过咨询我才知道，原来进行备案时备案网址名额是由服务器提供的，于是我被迫租用了阿里云便宜的服务器一个月，这赠送20个备案域名——我只要一个就好了，而服务器本身，我则一点也没有用上，租用服务器所花的79rmb又这样毫无意义的溜走了。</p>
+<p><img src="https://pic1.imgdb.cn/item/6939492207135a7c195f4b8c.jpg" alt=""></p>
+<p>一个月前的故事到这里就结束了，等待公安域名备案的过程消耗尽了我仅存的激情，我又将博客放到了一边。</p>
+<p>一个月后的C语言课，我忽然又想起了我的个人博客，打开阿里云的控制台，我惊喜的发现已经备案完成了。于是我一步步设置CNAME和种种配置，终于，我可以通过thereisntjack.top访问我的网站了！但我还没高兴多久，就发现，虽然thereisntjack.top可以访问，但是试图访问其任意子页面都会提示“不是安全连接”而被终止。经过查询我意识到我可能需要一个SSL证书。因为马上就要月考，所以我又将博客搁置起来。月考结束，我又开始着手配置证书，我申请了一个免费的个人测试证书，虽然只有三个月有效期，但我不想再花更多的钱了。配置好证书，终于在最后，我的个人博客实现了完全cdn加速，虽然距离我决定做这件事已经过去快两个月了。</p>
+<p><img src="https://pic1.imgdb.cn/item/6939492207135a7c195f4b8b.jpg" alt=""></p>
+<p><img src="https://pic1.imgdb.cn/item/6939492307135a7c195f4b8d.jpg" alt=""></p>
 
         </div>
 
@@ -763,7 +771,7 @@ wpac_init.push({widget: 'Rating', id: 23889});
     <div class="ins-search-mask"></div>
     <div class="ins-search-container">
         <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="请输入关键词..."/>
+            <input type="text" class="ins-search-input" placeholder="Type something..."/>
             <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="ins-section-wrapper">
@@ -775,10 +783,10 @@ wpac_init.push({widget: 'Rating', id: 23889});
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: '文章',
-            // PAGES: '页面',
-            CATEGORIES: '分类',
-            TAGS: '标签',
+            POSTS: 'Posts',
+            // PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
         },
         ROOT_URL: '/',
         CONTENT_URL: '/content.json',
